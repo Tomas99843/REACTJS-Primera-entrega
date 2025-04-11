@@ -8,8 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+# dist      <-- Esta línea la comentamos o eliminamos
+# dist-ssr  <-- Esta también
 *.local
 
 # Editor directories and files
