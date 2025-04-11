@@ -2,6 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: 'https://tomas99843.github.io/REACTJS-Primera-entrega/', // Exactamente como aparece en tu URL de GitHub Pages
-  plugins: [react()]
-});
+  base: '/REACTJS-Primera-entrega/', // Solo la ruta del repositorio, sin el dominio
+  plugins: [react()],
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true
+  }
+})
