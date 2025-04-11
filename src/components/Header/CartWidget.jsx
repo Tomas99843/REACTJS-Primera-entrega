@@ -13,14 +13,14 @@ const CartWidget = () => {
       name: "iPhone 15 Pro",
       price: "$999",
       description: "128GB - Titanio Negro",
-      image: "/images/producto_en_venta.png"
+      image: "images/producto_en_venta.png"
     },
     {
       id: 2,
       name: "MacBook Air",
       price: "$899",
       description: "Chip M2 - 13 pulgadas",
-      image: "/images/macbookair.jpg"
+      image: "images/macbookair.jpg"
     }
   ];
 

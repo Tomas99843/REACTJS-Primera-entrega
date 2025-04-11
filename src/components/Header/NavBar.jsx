@@ -41,7 +41,7 @@ const NavBar = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
-            src="/images/appleLogo.webp"
+            src="images/appleLogo.webp"
             alt="Logo"
             width="100"
             height="100"
